@@ -1,0 +1,204 @@
+{
+  "exam_mode": false,
+  "exam_app": null,
+  "start_time": null,
+  "events": [
+    {
+      "time": "2026-03-16T22:24:30.743954",
+      "level": "INFO",
+      "message": "Simulator stopped by user.",
+      "process": null
+    },
+    {
+      "time": "2026-03-16T22:24:29.308345",
+      "level": "INFO",
+      "message": "Exam Mode DEACTIVATED. System restored to normal.",
+      "process": null
+    },
+    {
+      "time": "2026-03-16T22:24:17.039654",
+      "level": "WARNING",
+      "message": "Process terminated: telegram (PID 7659)",
+      "process": "telegram"
+    },
+    {
+      "time": "2026-03-16T22:24:14.022639",
+      "level": "WARNING",
+      "message": "Process terminated: obs (PID 9178)",
+      "process": "obs"
+    },
+    {
+      "time": "2026-03-16T22:24:04.998282",
+      "level": "WARNING",
+      "message": "Process terminated: firefox (PID 6431)",
+      "process": "firefox"
+    },
+    {
+      "time": "2026-03-16T22:24:01.990451",
+      "level": "WARNING",
+      "message": "Process terminated: slack (PID 5459)",
+      "process": "slack"
+    },
+    {
+      "time": "2026-03-16T22:23:58.962644",
+      "level": "WARNING",
+      "message": "Process terminated: steam (PID 4484)",
+      "process": "steam"
+    },
+    {
+      "time": "2026-03-16T22:23:55.955296",
+      "level": "CRITICAL",
+      "message": "Exam Mode ACTIVATED. Detected: SafeExamBrowser",
+      "process": "SafeExamBrowser"
+    },
+    {
+      "time": "2026-03-16T22:23:40.898733",
+      "level": "INFO",
+      "message": "Exam Mode DEACTIVATED. System restored to normal.",
+      "process": null
+    },
+    {
+      "time": "2026-03-16T22:23:25.779977",
+      "level": "WARNING",
+      "message": "Process terminated: discord (PID 8808)",
+      "process": "discord"
+    },
+    {
+      "time": "2026-03-16T22:23:22.641348",
+      "level": "WARNING",
+      "message": "Process terminated: spotify (PID 2746)",
+      "process": "spotify"
+    },
+    {
+      "time": "2026-03-16T22:23:19.630576",
+      "level": "WARNING",
+      "message": "Process terminated: spotify (PID 3055)",
+      "process": "spotify"
+    },
+    {
+      "time": "2026-03-16T22:23:16.574680",
+      "level": "WARNING",
+      "message": "Process terminated: steam (PID 2848)",
+      "process": "steam"
+    },
+    {
+      "time": "2026-03-16T22:23:07.492525",
+      "level": "WARNING",
+      "message": "Process terminated: vlc (PID 3203)",
+      "process": "vlc"
+    },
+    {
+      "time": "2026-03-16T22:23:07.482672",
+      "level": "CRITICAL",
+      "message": "Exam Mode ACTIVATED. Detected: SafeExamBrowser",
+      "process": "SafeExamBrowser"
+    },
+    {
+      "time": "2026-03-16T22:22:55.437275",
+      "level": "INFO",
+      "message": "Simulator started. Watching for exam applications...",
+      "process": null
+    }
+  ],
+  "terminated": [
+    {
+      "name": "telegram",
+      "pid": 7659,
+      "time": "2026-03-16T22:24:17.039614"
+    },
+    {
+      "name": "obs",
+      "pid": 9178,
+      "time": "2026-03-16T22:24:14.022563"
+    },
+    {
+      "name": "firefox",
+      "pid": 6431,
+      "time": "2026-03-16T22:24:04.998072"
+    },
+    {
+      "name": "slack",
+      "pid": 5459,
+      "time": "2026-03-16T22:24:01.990414"
+    },
+    {
+      "name": "steam",
+      "pid": 4484,
+      "time": "2026-03-16T22:23:58.962529"
+    },
+    {
+      "name": "discord",
+      "pid": 8808,
+      "time": "2026-03-16T22:23:25.779940"
+    },
+    {
+      "name": "spotify",
+      "pid": 2746,
+      "time": "2026-03-16T22:23:22.641311"
+    },
+    {
+      "name": "spotify",
+      "pid": 3055,
+      "time": "2026-03-16T22:23:19.630530"
+    },
+    {
+      "name": "steam",
+      "pid": 2848,
+      "time": "2026-03-16T22:23:16.574635"
+    },
+    {
+      "name": "vlc",
+      "pid": 3203,
+      "time": "2026-03-16T22:23:07.492488"
+    }
+  ],
+  "protected": [
+    {
+      "name": "systemd",
+      "pid": 1,
+      "cpu": 0.1,
+      "mem": 0.2,
+      "status": "sleeping"
+    },
+    {
+      "name": "NetworkManager",
+      "pid": 842,
+      "cpu": 0.0,
+      "mem": 0.5,
+      "status": "sleeping"
+    },
+    {
+      "name": "pulseaudio",
+      "pid": 1204,
+      "cpu": 0.2,
+      "mem": 0.8,
+      "status": "sleeping"
+    },
+    {
+      "name": "gnome-shell",
+      "pid": 1581,
+      "cpu": 1.4,
+      "mem": 2.1,
+      "status": "running"
+    },
+    {
+      "name": "Xorg",
+      "pid": 1003,
+      "cpu": 0.6,
+      "mem": 1.2,
+      "status": "running"
+    },
+    {
+      "name": "python3",
+      "pid": 2504,
+      "cpu": 0.3,
+      "mem": 0.9,
+      "status": "running"
+    }
+  ],
+  "stats": {
+    "total_terminated": 10,
+    "scan_count": 32,
+    "uptime_seconds": 93
+  }
+}
