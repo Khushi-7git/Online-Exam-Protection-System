@@ -1,7 +1,6 @@
 # Online Exam Protection System
-**Subject:** System Programming and Operating Systems (SPOS)  
-**Language:** Python 3  
-**Platform:** Linux / macOS / Windows
+
+![Screenshot 2026-03-16 223846](https://github.com/user-attachments/assets/49960714-3386-463e-b282-c6befeeae2fd)
 
 ---
 
